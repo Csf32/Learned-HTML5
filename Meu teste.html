@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de programacao</title>
+
+    <style>
+
+    .botao{
+        border: none;
+        background-color: burlywood;
+        border-radius: 5px;
+        padding: 10px 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        text-decoration: none;
+        color: black;
+    
+    }
+        #quadrado {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+        }
+    </style>
+
+
+    </head>
+<body>
+
+    <header>
+
+        <h1>Iniciação à programacao</h1>
+        <h2>A progrmação...</h2>
+        <nav></nav>
+
+    </header>
+
+        <p>Todos sabem que a programação é o futuro da humanidade</p>
+
+        <p contenteditable="true">É imensurável saber programar</p>
+    
+        <button type= "button" accesskey="n">Novo</button>
+        <button type= "button" accesskey="s">Salvar</button>
+    
+        <button type="button"class="botao" >Ok</button>
+        <a href="#"class="botao">link</a>
+
+        <p>programacao</p>
+
+        <button type="button" draggable="true">OK</button>
+        <div id="quadrado" draggable="true" ></div>
+    
+        <ul>
+         <li data-id="1" data-email="c.souzaf@hotmail.com" >Caique Souza Fonseca</li>   
+        </ul>
+
+        <Script>
+        document.querySelectorAll('li').forEach (liel => {
+            
+            console.log (liel.dataset.email); 
+
+        });
+        
+        </Script>
+
+    <footer>
+
+        <p>Todos os direitos reservados</p>
+
+    </footer>
+</body>
+
+
+
+</html>   
